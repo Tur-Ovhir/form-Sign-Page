@@ -1,0 +1,15 @@
+.box-container {
+  width: 350px;
+  height: 350px;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 100px, 100px, 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 1px;
+}
+
+.res {
+  color: white;
+  background-color: black;
+  margin-left: 120px;
+}
