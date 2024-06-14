@@ -1,0 +1,83 @@
+.body {
+  margin-top: -23%;
+  margin-left: 34.7%;
+  width: 300px;
+  height: 450px;
+  border: 2px solid #4db5d0;
+}
+.header {
+  width: 300px;
+  height: 450px;
+  border: 2px solid #4db5d0;
+  margin-left: 50%;
+  margin-top: 20%;
+  background-color: #4db5d0;
+  opacity: 1;
+}
+.in {
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.icon {
+  color: black;
+  display: flex;
+}
+.text {
+  display: flex;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+.name {
+  width: 250px;
+  height: 30px;
+  border: 2px solid gray;
+  margin-left: 20px;
+}
+.name2 {
+  width: 250px;
+  height: 30px;
+  border: 2px solid gray;
+  margin-left: -3px;
+  margin-top: 50px;
+
+  font-size: 10px;
+}
+.email {
+  margin-top: -0.7px;
+  font-size: 15px;
+  color: black;
+  margin-left: 5px;
+}
+.sign {
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #4db5d0;
+  margin-left: 80px;
+  color: white;
+  border: 2px solid #4db5d0;
+}
+.pass {
+  margin-left: 5px;
+}
+.forgot {
+  margin-top: 120px;
+  margin-left: 60px;
+}
+.hello {
+  margin-top: 100px;
+  margin-left: 40px;
+  color: white;
+}
+.enter {
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.up {
+  margin-top: 50px;
+  margin-left: 100px;
+  background-color: #4db5d0;
+  color: white;
+  border: 2px solid white;
+  font-size: 20px;
+}
