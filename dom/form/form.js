@@ -1,12 +1,26 @@
 const modal = document.querySelector(".modal-container");
 const openModalBtn = document.querySelector(".open-modal-btn");
 const closeModalBtn = document.querySelector(".modal-close-btn");
-const form = document.querySelector("form");
+const form = document.querySelector(".form");
 const cards = document.querySelector(".cards");
-
 const titleInput = document.querySelector("input");
 const descInput = document.querySelector("textarea");
-
+const card = () => {
+  return `
+   <div class="add-card">
+              <button class="Add">Add Card</button>
+              <form action="Modal">
+                <label for="priority"></label>
+                <select name="priority" id="priority">
+                 <h1>${Low}</h1>
+                  <p>${High}</p>
+                  <p>${Medium}</p>
+                </select>
+                <input type"Submit" value="Submit">
+              </form>
+            </div>
+            `;
+};
 const cardTemplate = () => {
   return `
     <div class="card">
@@ -20,11 +34,12 @@ const cardTemplate = () => {
     </div>
   `;
 };
-
 openModalBtn.addEventListener("click", () => {
   modal.classList.add("open");
 });
-
+add.addEventListener("click", () => {
+  add.classList.remove("add");
+});
 closeModalBtn.addEventListener("click", () => {
   modal.classList.remove("open");
 });

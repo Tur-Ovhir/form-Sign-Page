@@ -18,11 +18,12 @@ body {
     magenta,
     red
   );
-  /* background-color: #eee; */
   padding: 32px;
   gap: 24px;
 }
-
+.add-card {
+  margin-left: 80px;
+}
 .modal-container {
   visibility: hidden;
   position: fixed;
@@ -87,7 +88,13 @@ button {
   border-radius: 4px;
   border: none;
 }
-
+.Add {
+  background-color: white;
+  color: black;
+  width: 50px;
+  height: 5px;
+  border: 2px solid rgba(red, green, blue, alpha);
+}
 .open-modal-btn {
   width: 300px;
 }
