@@ -70,12 +70,12 @@ body {
   margin-top: 70px;
 }
 .footer-img {
-  margin-left: 230px;
+  margin-left: 400px;
   margin-top: 50px;
 }
 .phone {
-  margin-left: 15%;
-  margin-top: 10px;
+  margin-left: 21%;
+  margin-top: 15px;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -85,8 +85,8 @@ body {
   margin-top: -90px;
 }
 .zahialga {
-  margin-left: 80%;
-  margin-top: -40px;
+  margin-left: 70%;
+  margin-top: -25px;
 }
 .menu {
   font-size: 10px;
@@ -104,8 +104,8 @@ body {
 .text3 {
   display: flex;
   flex-direction: column;
+  margin-left: 70%;
   gap: 70px;
-  margin-left: 80%;
   margin-top: 50px;
 }
 .name {
@@ -134,5 +134,8 @@ body {
   display: flex;
   flex-direction: row;
   gap: 50px;
-  margin-left: 300px;
+  margin-left: 430px;
+}
+.menu {
+  margin-left: 5%;
 }
