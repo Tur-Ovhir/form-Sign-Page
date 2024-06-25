@@ -1,0 +1,101 @@
+.header {
+  width: 100%;
+  height: 70px;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  margin-top: 15px;
+}
+.zurag1 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 9%;
+  margin-top: 20px;
+}
+.text {
+  font-size: 15px;
+}
+.body {
+  width: 335px;
+  height: 145px;
+  border: 2px solid white;
+  text-align: center;
+  margin-left: 9%;
+}
+.zahialah {
+  color: #aa714a;
+}
+.phone {
+  margin-left: 10%;
+}
+.app {
+  width: 335px;
+  height: 233px;
+  border: 2px solid #f8f1e7;
+  background-color: #f8f1e7;
+  margin-left: 10%;
+}
+.unegui {
+  color: #aa714a;
+  margin-left: 6%;
+  font-size: 30px;
+}
+.uramshuulal {
+  margin-left: 5%;
+  font-size: 16px;
+}
+.tatah {
+  color: #aa714a;
+  margin-left: 35%;
+}
+.onts {
+  margin-left: 10%;
+}
+.ene {
+  font-size: 20px;
+  margin-left: 12%;
+}
+.image {
+  margin-left: 10%;
+}
+.image2 {
+  margin-left: 10%;
+}
+.footer {
+  width: 100%;
+  height: 473px;
+  background-color: #f8f1e7;
+}
+.footer-img {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.footer-text {
+  margin-left: 40px;
+  gap: 5px;
+}
+.footer-icon {
+  margin-left: 40px;
+  display: flex;
+  gap: 50px;
+}
+.footer-text2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.footer-text3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60%;
+  margin-top: -150px;
+  gap: 30px;
+}
